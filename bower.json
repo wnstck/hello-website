@@ -17,6 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "cocktail": "https://github.com/wnstck/cocktail.git#master"
+    "bourbon": "~4.2.6",
+    "bitters": "~1.1.0",
+    "neat": "~1.7.2"
   }
 }
