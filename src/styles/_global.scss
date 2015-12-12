@@ -1,0 +1,39 @@
+// _global
+
+body{
+	font-family: $helvetica-light;
+}
+
+h1, h2, h3{
+	font-family: $helvetica-light;
+	font-weight: normal;
+}
+
+h1 { font-size: em(40); }
+h2 { font-size: em(24); }
+h3 { font-size: em(16); }
+
+p{
+	font-size: em(14);
+	color: $gray;
+}
+
+// CONTENT
+
+.wrapper{
+	@include outer-container(100%);
+	padding: $base-spacing;
+}
+
+.wrapper>.content{
+	@include span-columns(8);
+	@include shift(2);
+
+	@include media($mobile) {
+		@include span-columns(12);
+		@include shift(0);
+	}
+}
+
+
+

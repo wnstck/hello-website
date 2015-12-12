@@ -1,0 +1,22 @@
+{
+  "name": "hello-website",
+  "authors": [
+    "Jared Weinstock <jaredmarcweinstock@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/wnstck/hello-website",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cocktail": "https://github.com/wnstck/cocktail.git#master"
+  }
+}
