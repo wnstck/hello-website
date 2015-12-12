@@ -2,7 +2,7 @@
 
 ## Install
 
-- Install [node & npm](http://nodejs.org/download/)
+- Install [Node](https://nodejs.org/en/)
 - `npm install -g grunt-cli` for [Grunt](http://gruntjs.com/getting-started)
 - `npm install -g bower` for [Bower](http://bower.io/)
 - `git clone https://github.com/wnstck/hello-website.git`
