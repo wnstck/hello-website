@@ -41,7 +41,7 @@ module.exports = function(grunt) {
                     sourceMap: true
                 },
                 files: {
-                    'src/styles/main.css': 'src/styles/main.scss'
+                    'src/.tmp/main.css': 'src/styles/main.scss'
                 }
             },
             dist: {
@@ -148,7 +148,7 @@ module.exports = function(grunt) {
         'watch:dev'
     ]);
 
-     grunt.registerTask('dist', [
+    grunt.registerTask('dist', [
         'clean',
         'copy',
         'sass:dist',
